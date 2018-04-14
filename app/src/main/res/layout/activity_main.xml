@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mysisterisawesome.helloandroid.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/uda"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv1"
+            android:paddingTop="15dp"
+            android:paddingLeft="20dp"
+            android:text="Udacity!"
+            />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="650-555-5555!"
+            android:paddingLeft="20dp"
+            android:paddingTop="15dp"
+            android:layout_below="@id/tv1"/>
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="www.udacity.com"
+            android:paddingTop="15dp"
+            android:paddingLeft="20dp"
+
+            android:layout_below="@id/tv2"/>
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2465 Latham St, Mountain View, CA 94043"
+            android:paddingLeft="20dp"
+
+            android:paddingTop="15dp"
+            android:layout_below="@+id/tv3"/>
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
